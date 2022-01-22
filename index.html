@@ -24,10 +24,59 @@
     </script>
   </head>
   <body>
-    <header class="bg-ivory pt-16 pb-32">
-      <section class="container mx-auto sm:flex items-center justify-between">
+    <header class="container mx-auto mb-16 bg-ivory">
+      <nav class="flex items-center justify-between flex-wrap p-6 mb-8">
+        <div class="mr-8">
+          <img width="250px" src="./Logo, Icon/Logo.png" alt="" />
+        </div>
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-black border-black hover:bg-green-400 hover:border-green-400"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-xl lg:flex-grow">
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4"
+            >
+              Home
+            </a>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4"
+            >
+              Travel
+            </a>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700"
+            >
+              Casual
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="inline-block text-lg px-4 py-2 leading-none border rounded text-black border-black hover:border-transparent hover:text-white hover:bg-btncolor mt-4 lg:mt-0"
+              >Download</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- banner section starts header  -->
+      <section class="sm:flex items-center justify-between">
         <div class="space-y-6 sm:space-y-3 ml-6 sm:ml-0">
-          <h1 class="text-5xl sm:text-5xl uppercase font-bold">
+          <h1 class="text-4xl sm:text-7xl uppercase">
             <span class="text-gray-700 font font-bold">BackPack</span>
             <br />
             <span class="text-green-400 font-bold"> Moon</span>
@@ -37,7 +86,7 @@
             fugiat.
           </p>
           <button
-            class="uppercase px-8 py-5 bg-btncolor text-white font-semibold rounded-lg text-2xl"
+            class="uppercase px-6 py-4 bg-btncolor text-white font-semibold rounded-lg text-2xl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
